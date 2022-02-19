@@ -1,3 +1,8 @@
+.wishlist-header{
+    text-align: center;
+    font-size: 2rem;
+}
+
 .heart-icon{
     color:var(--red-color)
 
