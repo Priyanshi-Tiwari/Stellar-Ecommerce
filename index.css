@@ -1,4 +1,5 @@
 @import url('https://stark-ui.netlify.app/Stylesheets/main.css');
+@import url('./Stylesheets/commons/utils.css');
 
 .nav-brand {
   cursor: pointer;
@@ -24,12 +25,9 @@
   padding-top: 2rem;
 }
 
-.poster {
-  max-width: 100%;
-  margin: 0 auto;
-  align-content: center;
-  justify-content: center;
-  display: flex;
+.poster{
+max-width: 100%;
+margin:0 auto;
 }
 
 .links-mr {
@@ -86,10 +84,6 @@
 .input-bar {
   border: 1rem transparent;
   width: 100%;
-}
-.home-container {
-  justify-content: center;
-  align-content: center;
 }
 
 .card-wrapper {
