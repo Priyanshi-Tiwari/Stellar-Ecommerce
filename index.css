@@ -1,1 +1,111 @@
 @import url('https://stark-ui.netlify.app/Stylesheets/main.css');
+
+.nav-brand{
+    cursor: pointer;
+    padding:0rem;
+}
+
+.nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.poster-container{
+   position: relative;
+}
+
+.banner-button{
+    position: absolute;
+    top:-13rem;
+    left:40rem;
+    width:8rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.poster{
+max-width: 100%;
+margin:0 auto;
+align-content: center;
+justify-content: center;
+display: flex;
+}
+
+.links-mr{
+    margin:1rem 0rem;
+    padding:0rem
+}
+
+.cart-color{
+    color:var(--white-color);
+    font-size:2.5rem;
+}
+
+.list-non-bullet{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.links{
+    padding:0;  
+}
+
+.primary-link,.links-secondary{
+    padding: 0.5rem;
+}
+.badge-container{
+    padding: 0rem;
+    width:3rem
+}
+
+.red-icon{
+    left:1.5rem;
+    top:-1.5rem;
+}
+
+.glass-icon-color{
+    font-size: 1.5rem;
+    color:var(--primary-color)
+}
+
+.search-container{
+    padding: 0rem;
+    align-content: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+.search-button{
+    border-radius: 0.2rem 0 0.2rem 0.2rem;
+    border:1rem transparent;
+}
+
+.input-bar{
+    border-radius: 0.2rem 0.2rem 0.2rem 0rem;
+    border:1rem transparent;
+}
+.home-container{
+    justify-content: center;
+    align-content: center;
+}
+
+.card-wrapper{
+    margin:1rem;
+}
+
+.card-header-one{
+    text-align: left;
+}
+
+.footer{
+    padding:0rem;
+}
+
+.footer-bottom{
+    margin-bottom: 0rem;
+}
+
+.footer-header{
+    color:var(--white-color);
+}
