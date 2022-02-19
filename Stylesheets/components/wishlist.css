@@ -1,0 +1,22 @@
+.heart-icon{
+    color:var(--red-color)
+
+}
+
+.icon-container{
+    border-radius: 50%;
+    background-color: var(--white-color);
+    width:1rem;
+    height:1rem;
+    position: absolute;
+    left:13.5rem
+}
+
+.stack{
+    margin:0;
+    text-align: center;
+}
+
+.card-wrapper{
+    height:26rem
+}
