@@ -8,3 +8,14 @@
     align-content: center;
     justify-content: center;
 }
+
+.btn-primary-light{
+    background-color:var(--primary-color);
+    width:25rem;
+    color:white
+
+}
+
+.gap-sm{
+    gap:1rem;
+}
