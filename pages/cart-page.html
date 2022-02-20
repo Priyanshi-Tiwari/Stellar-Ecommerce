@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../Stylesheets/main.css" />
+    <script
+      src="https://kit.fontawesome.com/6026902e47.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page|Stellar Ecommerce</title>
+  </head>
+  <body>
+    <nav class="navigation container nav-bar">
+      <a href="../index.html" class="links links-mr">
+        <div class="nav-brand">Stellar store</div>
+      </a>
+      <ul class="list-non-bullet list-align flex-row">
+        <div class="flex-row search-container">
+          <button class="list-non-bullet search-button">
+            <i class="fa-solid fa-magnifying-glass glass-icon-color"></i>
+          </button>
+          <input
+            class="list-non-bullet input-bar"
+            type="text"
+            placeholder="Search Products"
+          />
+        </div>
+        <li class="list-inline">
+          <a class="links link-active" href="#">
+            <div class="badge-container">
+              <div class="badge red-icon">3</div>
+              <i class="fa-solid fa-heart cart-color"></i>
+            </div>
+          </a>
+        </li>
+        <li class="list-inline">
+          <a class="links link-active" href="#">
+            <div class="badge-container">
+              <div class="badge red-icon">3</div>
+              <i class="fa-solid fa-cart-shopping cart-color"></i>
+            </div>
+          </a>
+        </li>
+        <li class="list-inline">
+          <a class="links link-active" href="../index.html">Products</a>
+        </li>
+        <li class="list-inline">
+          <a class="links" href="./loginpage.html">Login</a>
+        </li>
+      </ul>
+    </nav>
+    <h2 class="wishlist-header">My Cart</h2>
+    <div class="flex-row flex-center">
+      <div class="card-wrapper flex-col">
+        <div class="center">
+          <div class="image-conatiner">
+            <img
+              class="card-image"
+              src="../../assets/images/camera.jpg"
+              alt="card-image"
+            />
+          </div>
+
+          <h3 class="card-header-one">Camera</h3>
+          <h5 class="card-header-two">lorem ipsum</h5>
+
+          <div class="card-price flex-row">
+            <div class="new">Rs 1000</div>
+            <div class="discounted">Rs5000</div>
+          </div>
+          <div class="cart-quantity">
+            <span class="quantity-header">Quantity:</span>
+            <button class="quant-btn">+</button>
+            <input class="quant-input" />
+            <button class="quant-btn">-</button>
+          </div>
+          <div class="card-buttons flex-col gap-sm">
+            <a href="#" class="links primary-link stack">Remove from cart</a>
+            <a href="#" class="links links-secondary stack">Move to wishlist</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-wrapper checkout-wrapper flex-col">
+        <h2 class="wishlist-header">Price Details</h2>
+        <hr class="checkout-gap" />
+        <div class="flex-sb dis-flex">
+          <p class="check-out-text">Price(1 item)</p>
+          <p class="check-out-text">Rs 5000</p>
+        </div>
+        <div class="flex-sb dis-flex">
+          <p class="check-out-text">Discount</p>
+          <p class="check-out-text">-Rs 4000</p>
+        </div>
+        <div class="flex-sb dis-flex">
+          <p class="check-out-text">Delivery Charges</p>
+          <p class="check-out-text">free</p>
+        </div>
+        <hr class="checkout-gap" />
+        <div class="flex-sb dis-flex">
+          <p class="check-out-text"><strong>Total amount</strong></p>
+          <p class="check-out-text"><strong>Rs 1000</strong></p>
+        </div>
+        <div class="card-buttons flex-col gap-sm">
+          <a href="#" class="links primary-link stack">Place Order</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="centered container footer-bottom">
+          <div class="footer-header">
+            <ul class="list-non-bullet">
+              <li class="list-inline"><a class="links" target="_blank" href="https://twitter.com/Priyanshicodes">Terms and conditions</a></li>
+              <li class="list-inline"><a class="links" target="_blank" href="https://twitter.com/Priyanshicodes">Shipping & Returns</a></li>
+              <li class="list-inline"><a class="links" target="_blank"  href="https://github.com/Priyanshi-Tiwari">Contact us</a></li>
+          </div>
+          <ul class="list-non-bullet">
+            <li class="list-inline">
+              <a
+                class="links"
+                target="_blank"
+                href="https://github.com/Priyanshi-Tiwari"
+                ><i class="fa-brands fa-github" style="font-size:40px"></i
+              ></a>
+            </li>
+  
+            <li class="list-inline">
+              <a
+                class="links"
+                target="_blank"
+                href="https://www.linkedin.com/in/priyanshi-tiwari-90594a221/"
+                ><i class="fa-brands fa-linkedin-in" style="font-size:40px"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+  </body>
+</html>
