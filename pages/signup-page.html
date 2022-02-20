@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stellar Ecommerce Landing Page</title>
+    <title>Stellar Ecommerce Signup Page</title>
   </head>
   <body>
     <nav class="navigation container nav-bar">
@@ -52,7 +52,16 @@
       </ul>
     </nav>
     <div class="flex-col login-container gap-sm">
-      <h2 class="login-header">Login</h2>
+      <h2 class="login-header">Sign Up</h2>
+      <label class="login-email" for="signup-name">First Name</label>
+      <input type="email" name="email" id="signup-name" class="email-input" />
+      <label class="login-email" for="signup-last-name">Last Name</label>
+      <input
+        type="email"
+        name="email"
+        id="signup-last-name"
+        class="email-input"
+      />
       <label class="login-email" for="login-email">Email Address</label>
       <input type="email" name="email" id="login-email" class="email-input" />
       <label class="login-email" for="login-password">Password</label>
@@ -62,6 +71,13 @@
         id="login-email"
         class="email-input"
       />
+      <label class="login-email" for="confirm-password">Confirm Password</label>
+      <input
+        type="password"
+        name="password"
+        id="confirm-password"
+        class="email-input"
+      />
       <div class="show-password">
         <input
           type="checkbox"
@@ -69,18 +85,13 @@
           class="show-pass-input"
           id="showpassword"
         />
-        <label class="show-pass-input" for="showpassword">Show password</label>
-        <a class="forgot-password" href="#">
-          <span>Forgot password?</span>
-        </a>
+        <label class="show-pass-input" for="showpassword"
+          >I agree to all terms and conditions</label
+        >
       </div>
       <button class="btn btn-primary-light">
-        <a class="login-label" href="#">Login</a>
+        <a class="login-label" href="#">Sign Up</a>
       </button>
-      <small class="create-acc-text">
-        Not a user yet?
-        <a class="create-acc-head" href="./signup-page.html">Create account</a>
-      </small>
     </div>
     <footer class="footer">
         <div class="centered container footer-bottom">
@@ -96,7 +107,7 @@
                 class="links"
                 target="_blank"
                 href="https://github.com/Priyanshi-Tiwari"
-                ><i class="fa-brands fa-github" style="font-size: 40px"></i
+                ><i class="fa-brands fa-github" style="font-size:40px"></i
               ></a>
             </li>
   
@@ -105,7 +116,7 @@
                 class="links"
                 target="_blank"
                 href="https://www.linkedin.com/in/priyanshi-tiwari-90594a221/"
-                ><i class="fa-brands fa-linkedin-in" style="font-size: 40px"></i>
+                ><i class="fa-brands fa-linkedin-in" style="font-size:40px"></i>
               </a>
             </li>
           </ul>
