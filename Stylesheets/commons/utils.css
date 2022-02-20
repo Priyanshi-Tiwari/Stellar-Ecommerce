@@ -19,3 +19,14 @@
 .gap-sm{
     gap:1rem;
 }
+
+.flex-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:0
+  }
+  
+
+
