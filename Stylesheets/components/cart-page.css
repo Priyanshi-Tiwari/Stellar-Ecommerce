@@ -1,0 +1,26 @@
+.cart-quantity{
+margin-top: -2rem;
+}
+
+.quantity-header{
+color:var(--white-color)
+}
+
+.quant-input{
+width:1rem;
+
+}
+
+.check-out-text{
+    font-size: 1rem;
+    margin:0
+}
+
+.checkout-gap{
+    margin:1.5rem
+}
+
+.checkout-wrapper{
+    width:25rem;
+    margin-left:8rem;
+}

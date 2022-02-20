@@ -19,3 +19,11 @@
 .gap-sm{
     gap:1rem;
 }
+
+.dis-flex{
+    display:flex
+}
+
+.flex-sb{
+    justify-content: space-between;
+}
