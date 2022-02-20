@@ -2,5 +2,6 @@
 @import url(./commons/utils.css);
 @import url(./commons/variables.css);
 @import url(./components/loginpage.css);
+@import url(./components/wishlist.css);
 @import url(./components/signup-page.css);
 @import url(./components/cart-page.css);
