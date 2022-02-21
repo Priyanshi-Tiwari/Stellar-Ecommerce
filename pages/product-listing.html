@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Stylesheets/main.css" />
+    <script
+      src="https://kit.fontawesome.com/6026902e47.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Products|Stellar Ecommerce</title>
+  </head>
+  <body>
+    <nav class="navigation container nav-bar">
+      <a href="../index.html" class="links links-mr">
+        <div class="nav-brand">Stellar store</div>
+      </a>
+      <ul class="list-non-bullet list-align flex-row">
+        <div class="flex-row search-container">
+          <button class="list-non-bullet search-button">
+            <i class="fa-solid fa-magnifying-glass glass-icon-color"></i>
+          </button>
+          <input
+            class="list-non-bullet input-bar"
+            type="text"
+            placeholder="Search Products"
+          />
+        </div>
+        <li class="list-inline">
+          <a class="links link-active" href="./wishlist.html">
+            <div class="badge-container">
+              <div class="badge red-icon">3</div>
+              <i class="fa-solid fa-heart cart-color"></i>
+            </div>
+          </a>
+        </li>
+        <li class="list-inline">
+          <a class="links link-active" href="./cart-page.html">
+            <div class="badge-container">
+              <div class="badge red-icon">3</div>
+              <i class="fa-solid fa-cart-shopping cart-color"></i>
+            </div>
+          </a>
+        </li>
+        <li class="list-inline">
+          <a class="links link-active" href="./product-listing.html">Products</a>
+        </li>
+        <li class="list-inline">
+          <a class="links" href="./loginpage.html">Login</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="flex-row">
+      <div class="filter-container">
+        <div class="flex-row">
+          <h2>Filters</h2>
+          <button type="reset" class="btn btn-primary-light btn-clear">
+            Clear
+          </button>
+        </div>
+        <div class="flex-col">
+          <h2>Price</h2>
+          <div class="price-values dis-flex justify-content-sb">
+            <p>1000</p>
+            <p>2500</p>
+            <p>5000</p>
+          </div>
+          <input type="range" name="value" max="20" />
+        </div>
+        <div>
+          <h2>Category</h2>
+          <div>
+            <input type="checkbox" id="mens-cloth" />
+            <label for="mens-cloth">Men's Cloth</label>
+          </div>
+          <div>
+            <input type="checkbox" id="womens-cloth" />
+            <label for="womens-cloth">Women's Cloth</label>
+          </div>
+          <div>
+            <input type="checkbox" id="kids-cloth" />
+            <label for="kids-cloth">Kids's Cloth</label>
+          </div>
+        </div>
+        <div>
+          <h2>Rating</h2>
+          <div>
+            <input type="radio" id="above-four" />
+            <label for="above-four">4 & above stars</label>
+          </div>
+          <div>
+            <input type="radio" id="above-three" />
+            <label for="above-three">3 & above stars</label>
+          </div>
+          <div>
+            <input type="radio" id="above-two" />
+            <label for="above-two">2 & above stars</label>
+          </div>
+          <div>
+            <input type="radio" id="above-one" />
+            <label for="above-one">1 & above stars</label>
+          </div>
+        </div>
+        <div>
+          <h2>Sort By</h2>
+          <div>
+            <input type="radio" id="low-to-high" />
+            <label for="low-to-high">Price- Low to High</label>
+          </div>
+          <div>
+            <input type="radio" id="high-to-low" />
+            <label for="high-to-low">Price- High to Low</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-wrap">
+        <div class="card-wrapper flex-col">
+          <div class="center">
+            <div class="image-conatiner">
+              <img
+                class="card-image"
+                src="../../assets/images/camera.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <h3 class="card-header-one">Camera</h3>
+            <h5 class="card-header-two">lorem ipsum</h5>
+
+            <div class="card-price flex-row">
+              <div class="new">Rs 1000</div>
+              <div class="discounted">Rs5000</div>
+            </div>
+            <div class="card-buttons">
+              <a href="#" class="links primary-link">Buy Now</a>
+              <a href="#" class="links links-secondary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper flex-col">
+          <div class="center">
+            <div class="image-conatiner">
+              <img
+                class="card-image"
+                src="../../assets/images/camera.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <h3 class="card-header-one">Camera</h3>
+            <h5 class="card-header-two">lorem ipsum</h5>
+
+            <div class="card-price flex-row">
+              <div class="new">Rs 1000</div>
+              <div class="discounted">Rs5000</div>
+            </div>
+            <div class="card-buttons">
+              <a href="#" class="links primary-link">Buy Now</a>
+              <a href="#" class="links links-secondary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper flex-col">
+          <div class="center">
+            <div class="image-conatiner">
+              <img
+                class="card-image"
+                src="../../assets/images/camera.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <h3 class="card-header-one">Camera</h3>
+            <h5 class="card-header-two">lorem ipsum</h5>
+
+            <div class="card-price flex-row">
+              <div class="new">Rs 1000</div>
+              <div class="discounted">Rs5000</div>
+            </div>
+            <div class="card-buttons">
+              <a href="#" class="links primary-link">Buy Now</a>
+              <a href="#" class="links links-secondary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper flex-col">
+          <div class="center">
+            <div class="image-conatiner">
+              <img
+                class="card-image"
+                src="../../assets/images/camera.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <h3 class="card-header-one">Camera</h3>
+            <h5 class="card-header-two">lorem ipsum</h5>
+
+            <div class="card-price flex-row">
+              <div class="new">Rs 1000</div>
+              <div class="discounted">Rs5000</div>
+            </div>
+            <div class="card-buttons">
+              <a href="#" class="links primary-link">Buy Now</a>
+              <a href="#" class="links links-secondary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper flex-col">
+          <div class="center">
+            <div class="image-conatiner">
+              <img
+                class="card-image"
+                src="../../assets/images/camera.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <h3 class="card-header-one">Camera</h3>
+            <h5 class="card-header-two">lorem ipsum</h5>
+
+            <div class="card-price flex-row">
+              <div class="new">Rs 1000</div>
+              <div class="discounted">Rs5000</div>
+            </div>
+            <div class="card-buttons">
+              <a href="#" class="links primary-link">Buy Now</a>
+              <a href="#" class="links links-secondary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper flex-col">
+          <div class="center">
+            <div class="image-conatiner">
+              <img
+                class="card-image"
+                src="../../assets/images/camera.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <h3 class="card-header-one">Camera</h3>
+            <h5 class="card-header-two">lorem ipsum</h5>
+
+            <div class="card-price flex-row">
+              <div class="new">Rs 1000</div>
+              <div class="discounted">Rs5000</div>
+            </div>
+            <div class="card-buttons">
+              <a href="#" class="links primary-link">Buy Now</a>
+              <a href="#" class="links links-secondary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper flex-col">
+          <div class="center">
+            <div class="image-conatiner">
+              <img
+                class="card-image"
+                src="../../assets/images/camera.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <h3 class="card-header-one">Camera</h3>
+            <h5 class="card-header-two">lorem ipsum</h5>
+
+            <div class="card-price flex-row">
+              <div class="new">Rs 1000</div>
+              <div class="discounted">Rs5000</div>
+            </div>
+            <div class="card-buttons">
+              <a href="#" class="links primary-link">Buy Now</a>
+              <a href="#" class="links links-secondary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper flex-col">
+          <div class="center">
+            <div class="image-conatiner">
+              <img
+                class="card-image"
+                src="../../assets/images/camera.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <h3 class="card-header-one">Camera</h3>
+            <h5 class="card-header-two">lorem ipsum</h5>
+
+            <div class="card-price flex-row">
+              <div class="new">Rs 1000</div>
+              <div class="discounted">Rs5000</div>
+            </div>
+            <div class="card-buttons">
+              <a href="#" class="links primary-link">Buy Now</a>
+              <a href="#" class="links links-secondary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="centered container footer-bottom">
+        <div class="footer-header">
+          <ul class="list-non-bullet">
+            <li class="list-inline"><a class="links" target="_blank" href="https://twitter.com/Priyanshicodes">Terms and conditions</a></li>
+            <li class="list-inline"><a class="links" target="_blank" href="https://twitter.com/Priyanshicodes">Shipping & Returns</a></li>
+            <li class="list-inline"><a class="links" target="_blank"  href="https://github.com/Priyanshi-Tiwari">Contact us</a></li>
+        </div>
+        <ul class="list-non-bullet">
+          <li class="list-inline">
+            <a
+              class="links"
+              target="_blank"
+              href="https://github.com/Priyanshi-Tiwari"
+              ><i class="fa-brands fa-github" style="font-size: 40px"></i
+            ></a>
+          </li>
+
+          <li class="list-inline">
+            <a
+              class="links"
+              target="_blank"
+              href="https://www.linkedin.com/in/priyanshi-tiwari-90594a221/"
+              ><i class="fa-brands fa-linkedin-in" style="font-size: 40px"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
